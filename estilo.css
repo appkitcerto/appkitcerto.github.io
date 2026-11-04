@@ -64,3 +64,7 @@ footer a { color: var(--texto-suave); }
 }
 .intro { max-width: 720px; margin: 32px auto 0; text-align: center; font-size: 20px; }
 .intro p { margin: 0 0 14px; }
+.sobre { display: grid; gap: 24px; grid-template-columns: 260px 1fr; align-items: start; }
+.sobre img { width: 100%; border-radius: 18px; display: block; }
+.sobre p { margin-top: 0; }
+@media (max-width: 640px) { .sobre { grid-template-columns: 1fr; } .sobre img { max-width: 320px; margin: 0 auto; } .topo nav a[href="#sobre"] { display: none; } }
