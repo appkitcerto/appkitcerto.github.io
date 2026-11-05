@@ -68,3 +68,7 @@ footer a { color: var(--texto-suave); }
 .sobre img { width: 100%; border-radius: 18px; display: block; }
 .sobre p { margin-top: 0; }
 @media (max-width: 640px) { .sobre { grid-template-columns: 1fr; } .sobre img { max-width: 320px; margin: 0 auto; } .topo nav a[href="#sobre"] { display: none; } }
+.faq details { background: var(--cartao); border: 1px solid var(--borda); border-radius: 14px; padding: 14px 18px; margin: 10px 0; }
+.faq summary { font-weight: 700; cursor: pointer; }
+.faq details p { margin: 10px 0 0; color: var(--texto-suave); }
+.texto .destaque { margin: 16px 0; }
